@@ -8,7 +8,6 @@
  const yargs=require('yargs')
  const chalk =require('chalk')
  console.log(chalk.green('Working'))
-
 yargs.command({
     command : 'add' ,
     describe : 'add a Note..' , 
